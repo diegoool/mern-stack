@@ -1,0 +1,30 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoool/mern-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegoool/mern-stack/issues"
+  },
+  "homepage": "https://github.com/diegoool/mern-stack#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.0.10",
+    "mongoose": "^5.1.5",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
